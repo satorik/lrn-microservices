@@ -4,3 +4,5 @@ simple/event-bus/node_modules
 simple/moderation/node_modules
 simple/posts/node_modules
 simple/query/node_modules
+ts-playground
+complex/auth/node_modules
