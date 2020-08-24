@@ -6,3 +6,5 @@ simple/posts/node_modules
 simple/query/node_modules
 ts-playground
 complex/auth/node_modules
+complex/config
+complex/client/node_modules
