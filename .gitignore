@@ -8,3 +8,6 @@ ts-playground
 complex/auth/node_modules
 complex/config
 complex/client/node_modules
+complex/client/.next
+complex/tickets/node_modules
+nats-test/node_modules
