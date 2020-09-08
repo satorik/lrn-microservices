@@ -14,8 +14,8 @@ spec:
     spec:
       containers:
         - name: orders
-          #image: satorik/orders
-          image: us.gcr.io/ts-maps-286111/orders
+          image: emwrk/orders
+          #image: us.gcr.io/ts-maps-286111/orders
           env:
             - name: JWT_KEY
               valueFrom:

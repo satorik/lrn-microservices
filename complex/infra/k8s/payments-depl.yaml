@@ -14,8 +14,8 @@ spec:
     spec:
       containers:
         - name: payments
-          #image: satorik/payments
-          image: us.gcr.io/ts-maps-286111/payments
+          image: emwrk/payments
+          #image: us.gcr.io/ts-maps-286111/payments
           env:
             - name: JWT_KEY
               valueFrom:

@@ -14,8 +14,8 @@ spec:
     spec:
       containers:
         - name: expiration
-          #image: satorik/expiration
-          image: us.gcr.io/ts-maps-286111/expiration
+          image: emwrk/expiration
+          #image: us.gcr.io/ts-maps-286111/expiration
           env:
             - name: REDIS_HOST
               value: expiration-redis-srv

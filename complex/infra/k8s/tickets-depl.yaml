@@ -14,8 +14,8 @@ spec:
     spec:
       containers:
         - name: tickets
-          #image: satorik/tickets
-          image: us.gcr.io/ts-maps-286111/tickets
+          image: emwrk/tickets
+          #image: us.gcr.io/ts-maps-286111/tickets
           env:
             - name: JWT_KEY
               valueFrom:
