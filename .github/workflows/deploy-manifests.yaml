@@ -14,4 +14,4 @@ jobs:
         with:
           token: ${{ secrets.DO_ACCESS_TOKEN }}
       - run: doctl kubernetes cluster kubeconfig save ticketing
-      - run: kubectl apply -f complex/infra/k8s
+      - run: kubectl apply -f complex/infra/k8s && kubectl apply -f complex/infra/k8s-prod
