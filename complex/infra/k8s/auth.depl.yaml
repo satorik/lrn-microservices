@@ -14,8 +14,8 @@ spec:
     spec:
       containers:
         - name: auth
-          #image: satorik/auth
-          image: us.gcr.io/ts-maps-286111/auth
+          image: emwrk/auth
+          #image: us.gcr.io/ts-maps-286111/auth
           env:
             - name: JWT_KEY
               valueFrom:
