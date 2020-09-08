@@ -2,7 +2,8 @@ name: tests-orders
 
 on:
   pull_request:
-
+    paths:
+      - 'complex/orders/**'
 jobs:
   build:
     runs-on: ubuntu-latest
