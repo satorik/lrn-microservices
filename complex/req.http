@@ -1,0 +1,36 @@
+POST https://ticketing.dev/api/users/signup
+Content-Type: application/json
+
+{
+  "email": "test@test.com",
+  "password": "12323123"
+}
+
+###
+
+POST https://ticketing.dev/api/tickets/
+Content-Type: application/json
+
+{
+    "title": "new ticket",
+    "price": 1000
+}
+
+###
+
+POST https://ticketing.dev/api/orders/
+Content-Type: application/json
+
+{ "ticketId": "5f55535f1dd4a40027b887cc" }
+
+###
+
+
+POST https://ticketing.dev/api/payments/
+Content-Type: application/json
+
+{ "orderId": "5f555365e69710001c999fb9",
+  "token": "tok_visa"
+}
+
+###

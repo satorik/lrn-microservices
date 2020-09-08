@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: client
-          # image: satorik/client
+          #image: satorik/client
           image: us.gcr.io/ts-maps-286111/client
 
 ---

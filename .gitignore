@@ -10,4 +10,7 @@ complex/config
 complex/client/node_modules
 complex/client/.next
 complex/tickets/node_modules
+complex/orders/node_modules
 nats-test/node_modules
+complex/expiration/node_modules
+complex/payments/node_modules
